@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url(./assets/Fonts/SFPro/SFPRODISPLAYREGULAR.otf) format('otf');
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"SF Pro";
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyLogoAndName{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.companyLogoAndName p{
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+.options ul{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+.options ul li{
+    margin-left: 10px;
+    color: darkblue;
+    font-size: 1.1em;
+}
+
+.options ul li:hover{
+    color: darkslateblue;
+    cursor: pointer;
+}
